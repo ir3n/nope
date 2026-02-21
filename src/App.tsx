@@ -19,7 +19,7 @@ function App() {
   };
 
   return (
-    <main className="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white flex items-center justify-center min-h-screen text-center">
+    <main className=" flex items-center justify-center min-h-screen text-center">
       <div className="p-5 max-w-96 w-full flex flex-col gap-6">
         <h1 className="text-7xl md:text-8xl font-bold">nope.</h1>
         <p>
