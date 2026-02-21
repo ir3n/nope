@@ -29,7 +29,7 @@ function App() {
         <ExcuseCard loading={loading} text={getExcuseText()} />
         <button
           type="button"
-          className="p-2 bg-pink-600 text-white rounded-md cursor-pointer shadow-md font-medium lg:hover:scale-103 transition-transform duration-500"
+          className="p-2 bg-pink-600 text-white rounded-md cursor-pointer shadow-md font-medium lg:hover:bg-pink-500 transition-all duration-500 disabled:bg-gray-500 lg:disabled:hover:bg-gray-500 disabled:text-gray-300 disabled:cursor-not-allowed"
           onClick={getExcuse}
           disabled={loading}
         >
